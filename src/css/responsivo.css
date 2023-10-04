@@ -30,6 +30,7 @@
         width: 100%;
         padding: 30px;
         overflow-x:scroll;
+        overflow-x: hidden;
         max-width: 100%;
         justify-content: flex-start;
     }
@@ -62,7 +63,6 @@
         padding: 20px;
         top: -10%;
         overflow-x:scroll;
-        overflow-y:hidden;
         max-width: 100%;
         justify-content: flex-start;
     }
@@ -76,3 +76,13 @@
     }
 }
 
+@media (max-height:700px) {
+    .botoes {
+        display: flex;
+        overflow-y: scroll;
+        justify-content: flex-start;
+        max-height: 100%;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+}

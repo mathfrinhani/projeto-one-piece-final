@@ -55,9 +55,10 @@ main .personagem .imagem {
 }
 
 .conteudo .logo {
-    height: 100px;
-    width: 230px;
+    height: 150px;
+    width: 345px;
     margin-bottom: 35px;
+    margin-left: -11px;
 }
 
 .botoes {
@@ -67,7 +68,7 @@ main .personagem .imagem {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    width: 180px;
+    width: 140px;
     justify-content: center;
     align-items: center;
     gap: 10px;
